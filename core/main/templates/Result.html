@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<body style = "background-color: #000000"> 
+    <u style="color:#0000FF"><h1 style="color:#0000FF">RESULT</h1></u>
+    <h3 style="color:#6ED9E1">Result = {{ res }}</h3>
+    <a href="{% url 'math' %}"><button> Go Math </button></a>
+    <a href="{% url 'calculator' %}"><button> Go Back </button></a>
+
+</body>
+{% endblock %}
+</html>

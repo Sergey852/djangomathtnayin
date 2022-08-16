@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>BIN TO 10</h1>
+</head >
+<body style="background-color:#9672C8">
+    <form method="POST" action="bin/">
+        {% csrf_token %}
+        <input type="text" name="n">
+        <button type="submit">Bin to 10</button>
+    </form>
+</body>
+</html>
